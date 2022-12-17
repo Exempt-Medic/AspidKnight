@@ -26,7 +26,7 @@ jobs:
         uses: BadMagic100/setup-hk@v1
         with:
           apiPath: API
-          dependencyFilePath: Aspid Knight/ModDependencies.txt
+          dependencyFilePath: AspidKnight/ModDependencies.txt
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
@@ -41,7 +41,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Publish
-          path: Aspid Knight/bin/Publish
+          path: AspidKnight/bin/Publish
   release:
     needs:
       - build
@@ -72,4 +72,4 @@ jobs:
           body: |
             SHA256: ${{ steps.details.outputs.archiveHash }}
           files: |
-            artifacts/Publish/Aspid_Knight.zip
+            artifacts/Publish/AspidKnight.zip
