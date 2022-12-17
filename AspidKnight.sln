@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspidKnight", "Aspid Knight\AspidKnight.csproj", "{3A50FA18-BA79-4AFF-B2F4-DA2349F4F7D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{17B94989-EADE-475C-B58D-6D34C8B213C4}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+		.github\dependabot.yml = .github\dependabot.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A50FA18-BA79-4AFF-B2F4-DA2349F4F7D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A50FA18-BA79-4AFF-B2F4-DA2349F4F7D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A50FA18-BA79-4AFF-B2F4-DA2349F4F7D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A50FA18-BA79-4AFF-B2F4-DA2349F4F7D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8FF7E67-7F08-44FC-90AA-5CDAC68E041D}
+	EndGlobalSection
+EndGlobal
